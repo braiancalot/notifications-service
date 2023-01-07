@@ -29,7 +29,7 @@ describe('Count notifications', () => {
     expect(notifications).toEqual(
       expect.arrayContaining([
         expect.objectContaining({ recipientId: 'recipient-1' }),
-        expect.objectContaining({ recipientId: 'recipient-1' })
+        expect.objectContaining({ recipientId: 'recipient-1' }),
       ]),
     );
   });
